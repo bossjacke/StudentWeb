@@ -1,0 +1,267 @@
+/* navbar */
+.home {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    right: 25px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    left: 0px;
+    position: fixed;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+    border-radius: 300px;
+    width: 50px;
+    height: 50px;
+    
+}
+.navbarhome{
+    justify-content: end;
+}
+
+
+/* navbar */
+/* Home */
+.homediv{
+    margin-top: 200px;
+}
+.homeUl{
+    list-style: none;
+
+}
+.homediv2{
+      display: flex;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+}
+
+.homeimg{
+    margin-left: auto;
+    margin-right: 200px;
+    border-radius: 30px;
+
+}
+
+
+/* home */
+
+
+
+/* Addstudents */
+
+/* 🔄 Fade-in animation for form container */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+/* Container */
+
+.student-form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.6s ease-out;
+  }
+  
+  /* Heading */
+  .student-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Labels */
+  .student-form label {
+    display: block;
+    padding-top: 5px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* Inputs */
+  .student-form input {
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  /* ✨ Input focus glow effect */
+.student-form input:focus {
+    border-color: #0078d4;
+    box-shadow: 0 0 5px rgba(0, 120, 212, 0.5);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+  
+  /* Error messages */
+  .student-form .error {
+    color: red;
+    font-size: 13px;
+    /* margin-top: 1px;
+    margin-bottom: 1px; */
+  }
+  
+  /* Button */
+  .student-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  @keyframes bounce {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
+  .student-form button:hover {
+    background-color: #005fa3;
+    animation: bounce 0.3s ease-in-out;
+  }
+  
+  /* Student list */
+  .student-form ul {
+    margin-top: 20px;
+    padding-left: 20px;
+
+  }
+  
+  .student-form li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+    animation: fadeIn 0.4s ease-out;
+  }
+/*  */
+.student-info {
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .student-info h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #0078d4;
+  }
+  
+  .student-info p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+/*  */
+.student-info {
+    list-style: none;
+    background-color: #f0f8ff;
+    border: 1px solid #cce7ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 120, 212, 0.1);
+    animation: fadeIn 0.5s ease-out;
+    transition: transform 0.3s ease;
+  }
+  
+  .student-info:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Title (Name) */
+  .student-info h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #005fa3;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* Info rows */
+  .student-info p {
+    margin: 6px 0;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.4;
+  }
+  
+  /* Icons spacing */
+  .student-info p::before {
+    margin-right: 6px;
+  }
+  
+/*  */
+
+  /* Addstudents */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
