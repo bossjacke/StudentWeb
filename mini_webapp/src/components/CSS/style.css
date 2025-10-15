@@ -15,11 +15,11 @@
     gap: 2rem;
     text-align: center;
     align-items: center;
-    background-color: lawngreen;
+    /* background-color: lawngreen; */
 }
 
 .nav a {
-    background-color: dodgerblue;
+    background-color: rgb(255, 255, 255);
     padding: 5px;
     border-radius: 10px;
     text-decoration: none;
@@ -92,8 +92,9 @@
 /* Container */
 
 .student-form {
+  
     max-width: 400px;
-    margin: 30px auto;
+    margin: 100px auto;
     padding: 20px;
     font-family: 'Segoe UI', sans-serif;
     background-color: #f9f9f9;
